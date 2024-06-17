@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Generated New Id: 1493]]>
+    </line>
+    <line>
+      <![CDATA[User is Deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Generated New Id: 1494]]>
+    </line>
+    <line>
+      <![CDATA[User Id is: 1494]]>
+    </line>
+    <line>
+      <![CDATA[User Name is : Saurabh]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is: 404]]>
+    </line>
+    <line>
+      <![CDATA[Generated New Id: 1495]]>
+    </line>
+    <line>
+      <![CDATA[Generated New Id: 1496]]>
+    </line>
+    <line>
+      <![CDATA[Updated UserEmail: getnxkfame@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Status Code is : 422]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7677" started-at="2020-12-30T14:12:59 IST" finished-at="2020-12-30T14:13:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7677" started-at="2020-12-30T14:12:59 IST" finished-at="2020-12-30T14:13:07 IST">
+      <class name="Request.DeleteUserDetail">
+        <test-method status="PASS" signature="DeleteUserMethod()[pri:6, instance:Request.DeleteUserDetail@35d176f7]" name="DeleteUserMethod" duration-ms="3080" started-at="2020-12-30T14:12:59 IST" finished-at="2020-12-30T14:13:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Generated New Id: 1493]]>
+            </line>
+            <line>
+              <![CDATA[User is Deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteUserMethod -->
+      </class> <!-- Request.DeleteUserDetail -->
+      <class name="Request.GetUser">
+        <test-method status="PASS" signature="GetNewUser()[pri:2, instance:Request.GetUser@1dfe2924]" name="GetNewUser" duration-ms="1528" started-at="2020-12-30T14:13:02 IST" finished-at="2020-12-30T14:13:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Generated New Id: 1494]]>
+            </line>
+            <line>
+              <![CDATA[User Id is: 1494]]>
+            </line>
+            <line>
+              <![CDATA[User Name is : Saurabh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetNewUser -->
+        <test-method status="PASS" signature="GetNewUserNegative()[pri:3, instance:Request.GetUser@1dfe2924]" name="GetNewUserNegative" duration-ms="504" started-at="2020-12-30T14:13:04 IST" finished-at="2020-12-30T14:13:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is: 404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetNewUserNegative -->
+      </class> <!-- Request.GetUser -->
+      <class name="Request.CreateNewUser">
+        <test-method status="PASS" signature="CreateUser()[pri:1, instance:Request.CreateNewUser@6ebc05a6]" name="CreateUser" duration-ms="539" started-at="2020-12-30T14:13:04 IST" finished-at="2020-12-30T14:13:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Generated New Id: 1495]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+      </class> <!-- Request.CreateNewUser -->
+      <class name="Request.UpdateUserDetails">
+        <test-method status="PASS" signature="UpdateUserdetails()[pri:4, instance:Request.UpdateUserDetails@6e6c3152]" name="UpdateUserdetails" duration-ms="1520" started-at="2020-12-30T14:13:05 IST" finished-at="2020-12-30T14:13:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Generated New Id: 1496]]>
+            </line>
+            <line>
+              <![CDATA[Updated UserEmail: getnxkfame@gmail.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateUserdetails -->
+        <test-method status="PASS" signature="UpdateUserdetailsNegative()[pri:5, instance:Request.UpdateUserDetails@6e6c3152]" name="UpdateUserdetailsNegative" duration-ms="475" started-at="2020-12-30T14:13:06 IST" finished-at="2020-12-30T14:13:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status Code is : 422]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateUserdetailsNegative -->
+      </class> <!-- Request.UpdateUserDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

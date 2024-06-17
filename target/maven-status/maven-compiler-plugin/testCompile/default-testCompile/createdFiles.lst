@@ -1,0 +1,7 @@
+utils\ExtentReport.class
+Request\PropertyFileClass.class
+Request\DataConversion.class
+Request\GetUser.class
+Request\DeleteUserDetail.class
+Request\CreateNewUser.class
+Request\UpdateUserDetails.class
